@@ -15,4 +15,8 @@ public class Prompter{
 		return mGame.applyGuess(guess);
 	}
 
+	public void displayProgress(){
+		System.out.printf("Try to solve : %s\n", mGame.getCurrentProgress());
+	}
+
 }
